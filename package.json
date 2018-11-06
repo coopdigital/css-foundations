@@ -1,0 +1,39 @@
+{
+  "name": "@coopdigital/css-foundations",
+  "version": "1.0.0",
+  "description": "Co-op CSS Foundations",
+  "main": "src/foundations.pcss",
+  "style": "dist/foundations.css",
+  "author": "Matthew Morek (matthew.morek@coopdigital.co.uk)",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "lint": "node_modules/.bin/stylelint 'dist/*.css' --fix",
+    "build": "node_modules/.bin/postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/css-foundations.git"
+  },
+  "dependencies": {
+    "@coopdigital/foundations-normalize": "^1.0.0",
+    "@coopdigital/foundations-typography": "^1.1.2",
+    "@coopdigital/foundations-vars": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  }
+}
