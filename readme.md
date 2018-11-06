@@ -1,4 +1,4 @@
-# Co-op CSS Foundations
+# Co-op CSS Foundations [WIP]
 Co-op CSS Foundations contains all the core CSS styles needed to build Co-op branded digital content.
 
 The foundations set the basic Co-op look and feel - they should be included in all Co-op services.
