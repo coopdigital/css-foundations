@@ -1,6 +1,6 @@
 {
   "name": "@coopdigital/css-foundations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Co-op CSS Foundations",
   "main": "dist/foundations.css",
   "style": "src/foundations.pcss",
@@ -20,6 +20,7 @@
     "url": "git+https://github.com/coopdigital/css-foundations.git"
   },
   "dependencies": {
+    "@coopdigital/foundations-colors": "^1.0.0",
     "@coopdigital/foundations-normalize": "^1.0.0",
     "@coopdigital/foundations-typography": "^1.1.2",
     "@coopdigital/foundations-vars": "^1.0.0"
