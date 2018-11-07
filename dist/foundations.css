@@ -682,6 +682,65 @@ dl dd {
 .coop-list-inline li {
   display: inline-block;
 }
+a {
+  color: #00729a;
+  color: var(--color-link);
+  border-bottom: 0.05em solid #00729a;
+  border-bottom: 0.05em solid var(--color-link);
+  text-decoration: none;
+}
+a:hover {
+  color: #000102;
+  color: var(--color-link--hover);
+  border: 0;
+}
+a:active,
+a:focus {
+  transition: none;
+  outline: 2px dotted #eec300;
+  outline: 2px dotted var(--color-link--focus);
+  outline-offset: 3px;
+}
+.link-white {
+  border-bottom: 0.05em solid #fff;
+  border-bottom: 0.05em solid var(--color-white);
+  text-decoration: none;
+}
+.link-white,
+.link-white:hover {
+  color: #fff;
+  color: var(--color-white);
+}
+.link-white:hover {
+  border: 0;
+}
+.link-white:active,
+.link-white:focus {
+  transition: none;
+  outline: 2px dotted #fff;
+  outline: 2px dotted var(--color-white);
+  outline-offset: 3px;
+}
+.link-black {
+  border-bottom: 0.05em solid #000;
+  border-bottom: 0.05em solid var(--color-black);
+  text-decoration: none;
+}
+.link-black,
+.link-black:hover {
+  color: #000;
+  color: var(--color-black);
+}
+.link-black:hover {
+  border: 0;
+}
+.link-black:active,
+.link-black:focus {
+  transition: none;
+  outline: 2px dotted #000;
+  outline: 2px dotted var(--color-black);
+  outline-offset: 3px;
+}
 .coop-u-brand {
   color: #00b1e7;
   color: var(--color-brand);
