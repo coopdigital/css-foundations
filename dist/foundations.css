@@ -1035,3 +1035,66 @@ a:focus {
   background: #6e6e6e;
   background: var(--color-grey-dark);
 }
+.coop-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  padding: var(--spacing-base--1-4) calc(var(--spacing-base--1-2) * 1.25);
+  color: #fff;
+  color: var(--color-white);
+  background: #374c63;
+  background: var(--color-button-dark);
+  font-family: Avenir-Next, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: var(--font-family);
+  font-weight: 500;
+  text-align: center;
+  border: 0;
+  border-radius: 7px;
+  transition: all 0.15s linear;
+  outline: none;
+}
+.coop-btn:focus,
+.coop-btn:hover {
+  background: #4a6683;
+  background: var(--color-button-dark--hover);
+  border: 0;
+}
+.coop-btn:focus {
+  transition: none;
+  outline: 2px dotted #eec300;
+  outline: 2px dotted var(--color-link--focus);
+  outline-offset: 3px;
+}
+.coop-btn:active {
+  background: #2e3f53;
+  background: var(--color-button-dark--active);
+  outline: 0;
+}
+.coop-btn--primary {
+  background: #0f8482;
+  background: var(--color-button-primary);
+}
+.coop-btn--primary:focus,
+.coop-btn--primary:hover {
+  background: #2b9e9c;
+  background: var(--color-button-primary--hover);
+}
+.coop-btn--active:active {
+  background: #0c6d6b;
+  background: var(--color-button-primary--active);
+}
+.coop-btn--full {
+  width: 100%;
+}
+.coop-btn--small {
+  padding: 0.16667rem 0.5rem;
+  padding: calc(var(--spacing-base--1-4) / 3) var(--spacing-base--1-4);
+  font-size: 0.8rem;
+}
+.coop-btn--medium {
+  padding: 0.25rem 0.5rem;
+  padding: calc(var(--spacing-base--1-4) / 2) var(--spacing-base--1-4);
+}
+.coop-btn--large {
+  padding: 0.5rem 1rem;
+  padding: var(--spacing-base--1-4) var(--spacing-base--1-2);
+}
