@@ -37,9 +37,9 @@ In Vue, you can just reference it from a global component like so:
 ```css
 <style>
 /* Import PostCSS source */
-@import "~@coopdigital/foundations-typography/src/typography.pcss";
+@import "~@coopdigital/css-foundations/src/foundations.pcss";
 /* Import postprocessed distributable CSS */
-@import "~@coopdigital/foundations-typography/dist/typography.css";
+@import "~@coopdigital/css-foundations/dist/foundations.css";
 </style>
 ```
 
@@ -54,15 +54,15 @@ CSS Foundations follows a modular architecture and as such is composed out of se
 
 ### Modules
 - [x] Variables [`@coopdigital/foundations-vars`](https://github.com/coopdigital/foundations-vars)
-- [x] Normalize [`@coopdigital/foundations-normalize`](https://github.com/coopdigital/foundations-normalize)
+- [x] Global [`@coopdigital/foundations-global`](https://github.com/coopdigital/foundations-global)
 - [x] Typography [`@coopdigital/foundations-typography`](https://github.com/coopdigital/foundations-typography)
-- [ ] Colours
-- [ ] Buttons
-- [ ] Forms
-- [ ] Links
-- [ ] Logos
+- [x] Colours [`@coopdigital/foundations-colors`](https://github.com/coopdigital/foundations-colors)
+- [x] Buttons [`@coopdigital/foundations-buttons`](https://github.com/coopdigital/foundations-buttons)
+- [x] Forms [`@coopdigital/foundations-forms`](https://github.com/coopdigital/foundations-forms)
 - [ ] Tables
 - [ ] Grid
+- [ ] Layout
+- [ ] Utilities & Helpers
 
 ### How to develop?
 This package only serves as a master package for all individual CSS modules. Development should be done within individual package repositories, following general guidelines.
