@@ -1169,8 +1169,10 @@ a:focus {
   }
 }
 .coop-btn--large {
-  padding: 0.5rem 1rem;
-  padding: var(--spacing-base--1-4) var(--spacing-base--1-2);
+  padding: 1rem;
+  padding: var(--spacing-base--1-2) var(--spacing-base--1-2);
+  font-size: 1.25rem;
+  font-size: var(--type-medium--body);
 }
 @media (min-width: 46.875em) {
   .coop-btn--large {
