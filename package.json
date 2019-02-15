@@ -23,7 +23,7 @@
     "@coopdigital/foundations-buttons": "~1.0.4",
     "@coopdigital/foundations-colors": "~1.0.0",
     "@coopdigital/foundations-forms": "~1.0.1",
-    "@coopdigital/foundations-global": "~1.0.2",
+    "@coopdigital/foundations-global": "^1.0.3",
     "@coopdigital/foundations-layout": "~1.0.0",
     "@coopdigital/foundations-tables": "~1.0.0",
     "@coopdigital/foundations-typography": "~1.1.3",
