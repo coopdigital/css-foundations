@@ -59,9 +59,8 @@ CSS Foundations follows a modular architecture and as such is composed out of se
 - [x] Colours [`@coopdigital/foundations-colors`](https://github.com/coopdigital/foundations-colors)
 - [x] Buttons [`@coopdigital/foundations-buttons`](https://github.com/coopdigital/foundations-buttons)
 - [x] Forms [`@coopdigital/foundations-forms`](https://github.com/coopdigital/foundations-forms)
-- [ ] Tables
-- [ ] Grid
-- [ ] Layout
+- [x] Tables [`@coopdigital/foundations-tables`](https://github.com/coopdigital/foundations-tables)
+- [x] Grid [`@coopdigital/foundations-grid`](https://github.com/coopdigital/foundations-grid)
 - [ ] Utilities & Helpers
 
 ### How to develop?
