@@ -1,4 +1,4 @@
-# Co-op CSS Foundations [WIP]
+# Co-op CSS Foundations
 Co-op CSS Foundations contains all the core CSS styles needed to build Co-op branded digital content.
 
 The foundations set the basic Co-op look and feel - they should be included in all Co-op services.
@@ -42,12 +42,6 @@ In Vue, you can just reference it from a global component like so:
 @import "~@coopdigital/css-foundations/dist/foundations.css";
 </style>
 ```
-
-### React.js
-TBD
-
-### Webpack
-TBD
 
 ## Development
 CSS Foundations follows a modular architecture and as such is composed out of several CSS Modules. You are free to use either individual modules or load the entire framework into your project.
