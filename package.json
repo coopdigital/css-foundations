@@ -26,7 +26,7 @@
     "@coopdigital/foundations-global": "^1.0.3",
     "@coopdigital/foundations-grid": "^1.0.1",
     "@coopdigital/foundations-layout": "~1.0.0",
-    "@coopdigital/foundations-tables": "~1.0.0",
+    "@coopdigital/foundations-tables": "^1.0.1",
     "@coopdigital/foundations-typography": "~1.1.3",
     "@coopdigital/foundations-vars": "~1.0.0",
     "normalize.css": "~8.0.1"
