@@ -1,3 +1,5 @@
+> **DEPRECATED ⚠️ - This repository has been deprecated in favour of the new [Co-op Front-end repository](https://github.com/coopdigital/coop-frontend). Please use this new repo to manage code or raise an issues.**
+
 # Co-op CSS Foundations
 Co-op CSS Foundations contains all the core CSS styles needed to build Co-op branded digital content.
 
